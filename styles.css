@@ -1,0 +1,134 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    padding: 3px;
+}
+
+header h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+header p {
+    text-align: center;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #2980b9;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #2980b9;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+thead {
+    background-color: #3498db;
+    color: #fff;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody td:first-child {
+    font-weight: bold;
+}
+
+tbody td:nth-child(2),
+tbody td:nth-child(3),
+tbody td:nth-child(4),
+tbody td:nth-child(5),
+tbody td:nth-child(6) {
+    text-align: center;
+}
+
+/* Justificación */
+section p,
+section ol {
+    margin: 20px;
+    line-height: 1.6;
+    
+}
+
+ol {
+    margin-left: 20px;
+    padding-left: 0;
+    counter-reset: section;
+    list-style-type: none;
+
+}
+
+ol li {
+    margin-bottom: 10px;
+    counter-increment: section;
+    list-style-type: none;
+        list-style-type: none;
+}
+
+ol li:before {
+    content: counter(section) ". ";
+    font-weight: bold;
+    color: #2980b9;
+    list-style-type: none;
+}
+
+/* Listas no ordenadas */
+ul {
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+/* Párrafos */
+p {
+    margin-bottom: 10px;
+}
+
+/* Destacar ejemplos */
+strong {
+    font-weight: bold;
+}
+
+/* Darle estilo a los puntos */
+li p, li ul {
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+/* Escala de calificación */
+ul li {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
